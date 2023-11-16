@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url("https://webdevte728stg.wpenginepowered.com/wp-content/uploads/2021/04/Space-1536x1024.jpg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.logo img {
+  max-width: 10em;
+  padding: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 0.7em;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+nav a:hover {
+  color: #E66D3D;
+  transition: color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1300px) {
+  header {
+    width: 90%;
+  }
+}
